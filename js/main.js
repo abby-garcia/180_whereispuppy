@@ -1,22 +1,13 @@
 $( document ).ready(function() {
     
 $( ".box1" ).on( "click", function(e) {
-  	$(e.target).hide();
-  	$('.puppy_pic').show();
+  	$('.present').toggle();
+  	$('.puppy_pic').toggle();
 });
 
 // $( ".box2" ).on( "click", function() {
-// 	$('.box2').hide();
-//   	$(".puppy_pic").show();
+// 	.html( "<p> Not this one!</p>" );
 // });
-
-
-
-
-
-
-
-
 
 
 

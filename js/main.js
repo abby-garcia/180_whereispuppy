@@ -5,10 +5,15 @@ $( ".box1" ).on( "click", function(e) {
   	$('.puppy_pic').toggle();
 });
 
-// $( ".box2" ).on( "click", function() {
-// 	.html( "<p> Not this one!</p>" );
-// });
+$( ".box2" ).on( "click", function() {
+	$('.present2').toggle();
+	$('.box2_paragraph').html("Not down here!");
+});
 
+$( ".box3" ).on( "click", function() {
+	$('.present3').toggle();
+	$('.box3_paragraph').html("Not down here!");
+});
 
 
 });  //jquery ends
